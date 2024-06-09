@@ -1,0 +1,39 @@
+{
+  "timeZone": "Asia/Jerusalem",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Docs",
+      "serviceId": "docs",
+      "version": "v1"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "Update Cell",
+      "functionName": "UpdateCell",
+      "defaultShortcut": "Ctrl+Alt+Shift+9"
+    },{
+      "menuName": "Create Schedules",
+      "functionName": "Schedule_create",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }, {
+      "menuName": "Create Mails",
+      "functionName": "CreateContactsFile",
+      "defaultShortcut": "Ctrl+Alt+Shift+3"
+    }, {
+      "menuName": "Create Poster",
+      "functionName": "poster_create",
+      "defaultShortcut": "Ctrl+Alt+Shift+4"
+    }, {
+      "menuName": "Store Database",
+      "functionName": "StoreDatabase",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    },{
+      "menuName": "Free Lock",
+      "functionName": "Release",
+      "defaultShortcut": "Ctrl+Alt+Shift+8"
+    }]
+  }
+}
