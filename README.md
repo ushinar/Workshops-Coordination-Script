@@ -13,7 +13,7 @@ In particular CTRL+ SHIFT+ Alt+1 parses and translates the google sheet table an
 An aditional config file is used to detail parameters such as file name and a few other flags.
 The script currently assumes all  these files lie in the same google drive folder.
 
-Examples of the Sheets themselves can be found [here][https://drive.google.com/drive/u/0/folders/1dd8PJXFeNu2587gfBzQcEfzKGLmV-jix] (Access to this version is viewer only)
+Examples of the Sheets themselves can be found at https://drive.google.com/drive/u/0/folders/1dd8PJXFeNu2587gfBzQcEfzKGLmV-jix (Access to this version is viewer only)
 
 The script is in google Appscript due to legacy reasons: I used google sheets before the process was improved and automated. In the future it might be worthwhile to create a web app instead.
 The main drawbacks of the current implementation are:
