@@ -26,4 +26,4 @@ The main drawbacks of the current implementation are:
 Examples of the Sheets themselves can be found at https://drive.google.com/drive/u/0/folders/1dd8PJXFeNu2587gfBzQcEfzKGLmV-jix (Access to this version is viewer only).
 an example of the form sent to english speaker can be found here:
 https://docs.google.com/forms/d/e/1FAIpQLSfuh3vs9gU7-4UJbUHTI33kRwZkWU7o9czXEaqzZfBAsAcxAQ/viewform?usp=sf_link.
-Notice currently this file specifically needs to be on a folder outside the folder where config lies (A folder called Timetalbes). This exception is suboptimal and will be improved in the future.
+Notice: currently this file specifically needs to be on a folder outside the folder where config lies (A folder called Timetalbes). This is suboptimal and will be improved in the future.
