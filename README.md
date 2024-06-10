@@ -1,4 +1,4 @@
-A script written in Google Appscript to facilitate me in organinizing the bilingual workshops schedule of a juggling convention. 
+This is a script written in Google Appscript to facilitate me in organinizing the bilingual workshops schedule of a juggling convention. 
 The script is bounded to a google sheet file depicting a table detailing loacation and time of every workshop.
 Users (workshop instructors) fill in the table with their workshops alongside pre filled notes describing the nature and details of their workshops (name, prop, level, description, etc.)
 After a set amnount of time the table is locked. The  scripts then parse these notes and convert them to:
@@ -24,6 +24,6 @@ The main drawbacks of the current implementation are:
  "workshop cells" on a separate file which I then assign a time and place myself based on their stated preferences. However with a web app hopefully this remaining manual work will begone.
 
 Examples of the Sheets themselves can be found at https://drive.google.com/drive/u/0/folders/1dd8PJXFeNu2587gfBzQcEfzKGLmV-jix (Access to this version is viewer only).
-an example of the form sent to english speaker can be found here:
+An example of the form sent to English speakers can be found here:
 https://docs.google.com/forms/d/e/1FAIpQLSfuh3vs9gU7-4UJbUHTI33kRwZkWU7o9czXEaqzZfBAsAcxAQ/viewform?usp=sf_link.
 Notice: currently this file specifically needs to be on a folder outside the folder where config lies (A folder called Timetalbes). This is suboptimal and will be improved in the future.
