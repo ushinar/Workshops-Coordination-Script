@@ -3,12 +3,12 @@ Workshops-Coordination-Script
 ==============
 A script written in Google Appscript to facilitate me in organinizing the bilingual workshops schedule of a juggling convention. 
 The script is bounded to a google sheet file depicting a table detailing loacation and time of every workshop.
-Users (workshop instructors) fill in the table with their workshops alongside pre filled notes describing the nature and details of their workshops (name, prop, level, description, etc.)
+Users (workshop instructors) fill in the table with their workshops alongside pre filled notes describing the nature and details of their workshops (name, prop, level, description, etc.).
 After a set amnount of time the table is locked. The  scripts then parse these notes and convert them to:
 1) A pretty preview of the schedule in Hebrew published on the website.
 2) A pretty preview of the schedule in English published on the website, auto translated.
-3) The Poster file, which represents 8 high quality partly bilingual posters to be printed and hanged on the convention site on large boards.
-   Empty spaces are destined to be filled real time by convention goers, using markers attached with a wire to each board.
+3) The poster file, which represents 8 high quality partly bilingual posters to be printed and hanged on the convention site on large boards.
+   Empty spaces are destined to be filled real time by convention goers, using markers attached with a thread to each board.
 5) A contacts list file to ease contact with workshop instructors.
 
 The above files are created via Macro Commands (CTRL+ SHIFT+ Alt+[Number]) ran from the google sheets file itself.
